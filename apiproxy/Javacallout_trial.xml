@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Javacallout_trial">
+    <Basepaths>/javacallout_trial</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1529949116260</CreatedAt>
+    <CreatedBy>vineethap@sidgs.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Javacallout_trial</DisplayName>
+    <LastModifiedAt>1529955917047</LastModifiedAt>
+    <LastModifiedBy>vineethap@sidgs.com</LastModifiedBy>
+    <Policies>
+        <Policy>Java-Callout-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://edge-custom-policy-java-hello.jar</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
